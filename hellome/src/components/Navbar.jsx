@@ -61,7 +61,7 @@ const Navbar = () => {
                   <div className="py-2">
                     <div className="px-4 py-2 text-lg font-bold">Exchange</div>
                     <div className="px-4 py-2">
-                      Currency Exchange(FX at Your Fingertips)
+                      Currency Exchange <br /> (FX at Your Fingertips)
                     </div>
                     <div className="px-4 py-2">Crypto Exchange</div>
                     <div className="px-4 py-2">Remittance</div>
@@ -99,12 +99,14 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex justify-center items-center gap-5 p-3">
           <Link to="/login">
-            <div className="text-white border-2 rounded-full py-2 text-center px-4 hover:bg-[#444444] tracking-wider">
+            <div className="text-white border-2 rounded-full py-2 text-center px-4 hover:bg-[#195399] tracking-wider">
               Login
             </div>
           </Link>
           <Link to="/signup">
-            <div className="text-white border-2 rounded-full py-2 px-4 hover:bg-[#444444] tracking-wider">
+            <div
+              className="text-white border-2 rounded-full py-2 px-4 hover:bg-[#195399] tracking-wider"
+            >
               Sign up
             </div>
           </Link>
@@ -122,12 +124,12 @@ const Navbar = () => {
             Company
           </div>
           <Link to="/login">
-            <div className="text-white text-center border-t border-gray-200 py-2 hover:p-2 hover:bg-[#444444] rounded-xl">
+            <div className="text-white text-center border-t border-gray-200 py-2 hover:p-2 hover:bg-[#195399] rounded-xl">
               Login
             </div>
           </Link>
           <Link to="/signup">
-            <div className="text-white text-center hover:p-2 hover:bg-[#444444] rounded-xl">
+            <div className="text-white text-center hover:p-2 hover:bg-[#195399] rounded-xl">
               Sign Up
             </div>
           </Link>
