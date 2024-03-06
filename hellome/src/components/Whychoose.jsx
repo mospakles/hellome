@@ -2,22 +2,22 @@ const WhyChoose = () => {
   return (
     <div className="bg-black font-clash-variable">
       <div className="flex justify-center">
-        <h1 className="text-[#2C7DDF] text-3xl font-medium text-center p-12">
+        <h1 className="text-[#2C7DDF] md:text-3xl text-xl font-medium text-center p-12 tracking-widest">
           Why Choose HelloMe Money Business Accounts?
         </h1>
-        <img src="./images/edge2.png" alt="edge" className="h-24 w-20" />
+        <img src="./images/edge2.png" alt="edge" className="h-24 w-20 -ml-14" />
       </div>
-      <div className="grid grid-cols-2 gap-10 p-5">
+      <div className="grid grid-cols-2 md:gap-10 p-5">
         <div className="flex flex-col text-white">
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">
+              <h2 className="md:text-lg font-medium">
                 Multi-Currency Flexibility
               </h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             Conduct transactions in over 30 currencies without the constraints
             of a traditional banking setup. Our multi-currency accounts enable
             your business to operate globally, effortlessly navigating through
@@ -33,12 +33,12 @@ const WhyChoose = () => {
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">
+              <h2 className="md:text-lg font-medium">
                 Tailored for Every Business Size
               </h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             Whether you&apos;re a thriving enterprise or a dynamic startup, our
             business accounts cater to all. Organize your finances efficiently,
             manage expenses seamlessly, and streamline financial operations with
@@ -54,12 +54,12 @@ const WhyChoose = () => {
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">
+              <h2 className="md:text-lg font-medium">
                 Streamlined International Transfers
               </h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             Say goodbye to complex and costly international transfers. With
             HelloMe Money, you can transfer funds globally with ease, taking
             advantage of competitive exchange rates and low transaction fees.
@@ -74,10 +74,10 @@ const WhyChoose = () => {
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">Smart Expense Management</h2>
+              <h2 className="md:text-lg font-medium">Smart Expense Management</h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             HelloMe Money provides tools to effortlessly manage your business
             expenses. From automated invoicing to intuitive expense tracking,
             our platform ensures that you stay on top of your financial game.
@@ -92,10 +92,10 @@ const WhyChoose = () => {
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">Secure and Transparent</h2>
+              <h2 className="md:text-lg font-medium">Secure and Transparent</h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             Your business`&apos;`s financial security is our priority. Benefit
             from a secure and transparent financial environment, where
             encryption and authentication measures ensure the safety of every
@@ -111,12 +111,12 @@ const WhyChoose = () => {
           <div className="flex justify-center">
             <div className="flex flex-1 p-2 gap-2">
               <img src="./images/edge.png" alt="edge" className="h-5 w-6" />
-              <h2 className="text-lg font-medium">
+              <h2 className="md:text-lg font-medium">
                 Personalized Access Control
               </h2>
             </div>
           </div>
-          <p className="ml-10 p-2 px-4 text-balance">
+          <p className="md:ml-10 p-2 px-4 text-balance">
             Tailor access permissions for your team members based on their roles
             and responsibilities. Our platform enables you to manage privacy and
             access control with precision, ensuring a secure and controlled

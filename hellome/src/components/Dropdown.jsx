@@ -18,7 +18,7 @@ const Dropdown = ({ options, placeholder, onSelect }) => {
         className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-500 px-4 py-3 rounded-2xl shadow leading-tight focus:outline-none focus:shadow-outline"
       >
         <option value="" disabled hidden>
-          {placeholder}
+          {placeholder || "Bank"}
         </option>
         {options.map((option, index) => (
           <option key={index} value={option}>

@@ -4,6 +4,7 @@ import { getCurrencyByCountryCode } from "iso-country-currency";
 import { FaArrowDown } from "react-icons/fa6";
 import Dropdown from "./Dropdown";
 
+// eslint-disable-next-line react/prop-types
 const CurrencyConverter = ({ currencies }) => {
   const [selectedCountry, setSelectedCountry] = useState("US");
   const [selectedCurrency, setSelectedCurrency] = useState("");
@@ -49,7 +50,7 @@ const currencies = {
 
 const Hero = () => {
 
-    const options = ["United Bank of Africa", "First Bank", "Access Bank"];
+    const options = ["United Bank of Africa", "First Bank", "Access Bank", "Guarantee Trust Bank", "Standard Chattered Bank"];
     const [selectedOption, setSelectedOption] = useState("");
 
     const handleSelect = (option) => {
@@ -57,7 +58,7 @@ const Hero = () => {
     };
 
   return (
-    <div className="h-full bg-gradient-to-b from-[#195399] to-[#061322]  font-clash-variable">
+    <div className="h-full bg-gradient-to-b from-[#195399] to-[#061322] font-clash-variable">
       <div className="flex justify-center items-center p-10">
         <button className="px-6 py-2 text-[#195399] text-center bg-white hover:bg-gray-300 rounded-xl">
           Business Account
@@ -65,18 +66,18 @@ const Hero = () => {
       </div>
       <div className="md:flex justify-between">
         <div className="md:w-2/3">
-          <div className="md:text-8xl sm:text-5xl font-medium text-white p-8">
-            <div className="mt-7">
+          <div className="md:text-8xl text-4xl font-medium text-white p-8">
+            <div className="md:mt-7">
               Empowering Your <br />
               <span className="font-extrabold">Financial </span>
               Frontier
             </div>
-            <div className="py-6">
+            <div className="py-1">
               <img src="./images/line1.png" alt="line 1" className="-mb-8" />
               <img src="./images/line2.png" alt="line 2" />
             </div>
           </div>
-          <p className="text-white px-10 mb-6 whitespace-normal text-balance leading-loose">
+          <p className="text-white px-10 mb-6 whitespace-normal text-balance leading-loose tracking-widest">
             Unlock the full potential of your business with HelloMe Money
             Business Accounts, where financial empowerment meets seamless
             transactions. Our platform is meticulously crafted to cater to the
@@ -92,7 +93,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="md:flex mx-auto justify-center items-center h-full p-8">
+        <div className="md:flex mx-auto justify-center items-center h-full p-12">
           <div className="bg-[#D8D8D8] rounded-2xl p-6 relative">
             <div className="bg-[#EDECEC] rounded-2xl p-4">
               <h2 className="text-center text-xl font-medium">Send Money</h2>
@@ -137,10 +138,10 @@ const Hero = () => {
                 </div>
               </div>
               <div className="flex justify-between p-1">
-                <button className="px-6 py-2 text-[#195399] text-center bg-white hover:bg-gray-300 rounded-xl">
+                <button className="md:px-6 px-3 py-2 text-[#195399] text-center bg-white hover:bg-gray-300 rounded-xl">
                   Compare Price
                 </button>
-                <button className="px-6 py-2 text-white text-center bg-[#195399] hover:bg-blue-900 rounded-xl">
+                <button className="md:px-6 px-3 py-2 text-white text-center bg-[#195399] hover:bg-blue-900 rounded-xl">
                   Get started
                 </button>
               </div>
@@ -149,7 +150,7 @@ const Hero = () => {
           <img
             src="./images/edge1.png"
             alt="edge"
-            className="absolute -bottom-[12rem] left-2/3 -ml-5"
+            className="absolute -bottom-[14rem] left-2/3 -ml-12 md:block hidden"
           />
         </div>
       </div>
