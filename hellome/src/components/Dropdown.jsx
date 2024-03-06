@@ -17,7 +17,7 @@ const Dropdown = ({ options, placeholder, onSelect }) => {
         onChange={(e) => handleSelect(e.target.value)}
         className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-500 px-4 py-3 rounded-2xl shadow leading-tight focus:outline-none focus:shadow-outline"
       >
-        <option value="" disabled hidden>
+        <option value="" disabled hidden className="text-gray-400">
           {placeholder || "Bank"}
         </option>
         {options.map((option, index) => (

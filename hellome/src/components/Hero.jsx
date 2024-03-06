@@ -50,7 +50,7 @@ const currencies = {
 
 const Hero = () => {
 
-    const options = ["United Bank of Africa", "First Bank", "Access Bank", "Guarantee Trust Bank", "Standard Chattered Bank"];
+    const options = ["Bank","United Bank of Africa", "First Bank", "Access Bank", "Guarantee Trust Bank", "Standard Chattered Bank"];
     const [selectedOption, setSelectedOption] = useState("");
 
     const handleSelect = (option) => {
@@ -64,8 +64,8 @@ const Hero = () => {
           Business Account
         </button>
       </div>
-      <div className="md:flex justify-between">
-        <div className="md:w-2/3">
+      <div className="lg:flex justify-between">
+        <div className="lg:w-2/3">
           <div className="md:text-8xl text-4xl font-medium text-white p-8">
             <div className="md:mt-7">
               Empowering Your <br />
@@ -93,7 +93,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="md:flex mx-auto justify-center items-center h-full p-12">
+        <div className="lg:flex mx-auto justify-center items-center h-full p-12">
           <div className="bg-[#D8D8D8] rounded-2xl p-6 relative">
             <div className="bg-[#EDECEC] rounded-2xl p-4">
               <h2 className="text-center text-xl font-medium">Send Money</h2>
@@ -150,7 +150,7 @@ const Hero = () => {
           <img
             src="./images/edge1.png"
             alt="edge"
-            className="absolute -bottom-[14rem] left-2/3 -ml-12 md:block hidden"
+            className="absolute -bottom-[14rem] left-2/3 -ml-12 lg:block hidden"
           />
         </div>
       </div>
